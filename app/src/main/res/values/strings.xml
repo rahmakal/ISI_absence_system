@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mar7ba ISI Absence System</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="hello_world">Mar7ba !</string>
+
+</resources>
