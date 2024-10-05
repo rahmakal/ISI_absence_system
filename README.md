@@ -2,7 +2,7 @@
 <h2>Features Available</h2>
 <h3>Admin Module</h3>
 <ul>
- 	<li>Add Student.</li>
+ 	<li>Add Students.</li>
  	<li>Add Faculty.</li>
  	<li>Add Teacher.</li>
  	<li>View Student.</li>
