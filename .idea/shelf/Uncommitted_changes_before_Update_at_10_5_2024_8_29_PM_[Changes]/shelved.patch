@@ -1,0 +1,63 @@
+Index: app/src/main/res/layout/login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:paddingBottom=\"@dimen/activity_vertical_margin\"\r\n    android:paddingLeft=\"@dimen/activity_horizontal_margin\"\r\n    android:paddingRight=\"@dimen/activity_horizontal_margin\"\r\n    android:paddingTop=\"@dimen/activity_vertical_margin\"\r\n    android:background=\"@drawable/clg\"\r\n    tools:context=\".MainAtivity\" >\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView1\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentLeft=\"true\"\r\n        android:layout_alignParentTop=\"true\"\r\n        android:layout_marginLeft=\"82dp\"\r\n        android:layout_marginTop=\"140dp\"\r\n        android:text=\"Entrer votre\\n Nom Utilisateur\\n  Mot de passe\"\r\n        android:textColor=\"#1F0B0B\"\r\n        android:textSize=\"25sp\"\r\n        android:textStyle=\"bold\"\r\n        android:textAppearance=\"?android:attr/textAppearanceLarge\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextpassword\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignLeft=\"@+id/textView3\"\r\n        android:layout_below=\"@+id/textView3\"\r\n        android:layout_marginTop=\"15dp\"\r\n        android:background=\"@drawable/roundedtextview\"\r\n        android:ems=\"10\"\r\n        android:inputType=\"textPassword\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView3\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignLeft=\"@+id/editTextusername\"\r\n        android:layout_below=\"@+id/editTextusername\"\r\n        android:layout_marginTop=\"14dp\"\r\n        android:textColor=\"#1F0B0B\"\r\n        android:textSize=\"25sp\"\r\n        android:textStyle=\"bold\"\r\n        android:text=\"Mot de passe\"\r\n        android:textAppearance=\"?android:attr/textAppearanceMedium\" />\r\n\r\n    <TextView\r\n        android:id=\"@+id/textView2\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignLeft=\"@+id/editTextusername\"\r\n        android:layout_below=\"@+id/textView1\"\r\n        android:layout_marginTop=\"25dp\"\r\n        android:textColor=\"#1F0B0B\"\r\n        android:textSize=\"25sp\"\r\n        android:textStyle=\"bold\"\r\n        android:text=\"Nom Utilisateur\"\r\n        android:textAppearance=\"?android:attr/textAppearanceMedium\" />\r\n\r\n    <EditText\r\n        android:id=\"@+id/editTextusername\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_below=\"@+id/textView2\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginTop=\"20dp\"\r\n        android:background=\"@drawable/roundedtextview\"\r\n        android:ems=\"10\" >\r\n\r\n        <requestFocus />\r\n    </EditText>\r\n\r\n    <Spinner\r\n        android:id=\"@+id/spinnerloginas\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignLeft=\"@+id/textView2\"\r\n        android:layout_alignBottom=\"@+id/textView2\"\r\n        android:layout_alignParentRight=\"true\"\r\n        android:layout_marginLeft=\"22dp\"\r\n        android:layout_marginRight=\"10dp\"\r\n        android:layout_marginBottom=\"-261dp\" />\r\n\r\n    <Button\r\n        android:id=\"@+id/buttonlogin\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_alignParentBottom=\"true\"\r\n        android:layout_alignRight=\"@+id/spinnerloginas\"\r\n        android:shadowColor=\"@color/app_background\"\r\n        android:background=\"@drawable/boarder_buttons\"\r\n        android:layout_marginBottom=\"34dp\"\r\n        android:text=\"Entrer\" />\r\n\r\n</RelativeLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/login.xml b/app/src/main/res/layout/login.xml
+--- a/app/src/main/res/layout/login.xml	(revision cd43b626f32cd9ea0d4ca334fe0f7a1f7c5becd1)
++++ b/app/src/main/res/layout/login.xml	(date 1728156577080)
+@@ -86,7 +86,7 @@
+ 
+     <Button
+         android:id="@+id/buttonlogin"
+-        android:layout_width="match_parent"
++        android:layout_width="200dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignRight="@+id/spinnerloginas"
+Index: app/src/main/res/drawable/boarder_buttons.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\r\n    <item>\r\n        <shape android:shape=\"rectangle\">\r\n            <!-- background -->\r\n            <solid android:color=\"@color/Accent\" />\r\n            <!-- border -->\r\n            <stroke android:width=\"1dp\" android:color=\"@color/PrimaryDark\" />\r\n\r\n            <!-- corner roundness -->\r\n            <corners android:radius=\"10dp\" />\r\n        </shape>\r\n    </item>\r\n</selector>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/boarder_buttons.xml b/app/src/main/res/drawable/boarder_buttons.xml
+--- a/app/src/main/res/drawable/boarder_buttons.xml	(revision cd43b626f32cd9ea0d4ca334fe0f7a1f7c5becd1)
++++ b/app/src/main/res/drawable/boarder_buttons.xml	(date 1728156577094)
+@@ -3,12 +3,12 @@
+     <item>
+         <shape android:shape="rectangle">
+             <!-- background -->
+-            <solid android:color="@color/Accent" />
++            <solid android:color="#BDD0FB" />
+             <!-- border -->
+             <stroke android:width="1dp" android:color="@color/PrimaryDark" />
+ 
+             <!-- corner roundness -->
+-            <corners android:radius="10dp" />
++            <corners android:radius="30dp" />
+         </shape>
+     </item>
+ </selector>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/modules/Mar7ba_ISI_Absence_System.iml\" filepath=\"$PROJECT_DIR$/.idea/modules/Mar7ba_ISI_Absence_System.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.iml\" filepath=\"$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.androidTest.iml\" filepath=\"$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.androidTest.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.main.iml\" filepath=\"$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.main.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.unitTest.iml\" filepath=\"$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.unitTest.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	(revision cd43b626f32cd9ea0d4ca334fe0f7a1f7c5becd1)
++++ b/.idea/modules.xml	(date 1728156586802)
+@@ -2,6 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mar7ba_ISI_Absence_System.iml" filepath="$PROJECT_DIR$/.idea/modules/Mar7ba_ISI_Absence_System.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Mar7ba_ISI_Absence_System.app.androidTest.iml" />
