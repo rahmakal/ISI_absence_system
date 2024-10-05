@@ -47,7 +47,7 @@ public class LoginActivity extends Activity {
 			@Override
 			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
 				userrole = (String) spinnerloginas.getSelectedItem();
-				((TextView) view).setTextColor(Color.WHITE);
+				((TextView) view).setTextColor(Color.BLACK);
 			}
 
 			@Override
