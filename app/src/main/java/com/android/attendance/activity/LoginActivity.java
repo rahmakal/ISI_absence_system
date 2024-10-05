@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,117 +23,81 @@ import com.example.androidattendancesystem.R;
 public class LoginActivity extends Activity {
 
 	Button login;
-	EditText username,password;
+	EditText username, password;
 	Spinner spinnerloginas;
 	String userrole;
-	private String[] userRoleString = new String[] { "ISI", "Enseignant ISI"};
+	private String[] userRoleString = new String[]{"Espace Enseignant", "Administrateur"};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.login);
 
-		login =(Button)findViewById(R.id.buttonlogin);
-		username=(EditText)findViewById(R.id.editTextusername);
-		password=(EditText)findViewById(R.id.editTextpassword);
-		spinnerloginas=(Spinner)findViewById(R.id.spinnerloginas);
+		login = findViewById(R.id.buttonlogin);
+		username = findViewById(R.id.editTextusername);
+		password = findViewById(R.id.editTextpassword);
+		spinnerloginas = findViewById(R.id.spinnerloginas);
 
-		spinnerloginas.setOnItemSelectedListener(new OnItemSelectedListener() {
+		ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
+				R.layout.spinner_item, userRoleString);
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spinnerloginas.setAdapter(adapter);
+
+		spinnerloginas.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 			@Override
-			public void onItemSelected(AdapterView<?> arg0, View view,
-					int arg2, long arg3) {
-				// TODO Auto-generated method stub
-				((TextView) arg0.getChildAt(0)).setTextColor(Color.WHITE);
-				userrole =(String) spinnerloginas.getSelectedItem();
-
+			public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+				userrole = (String) spinnerloginas.getSelectedItem();
+				((TextView) view).setTextColor(Color.WHITE);
 			}
 
 			@Override
-			public void onNothingSelected(AdapterView<?> arg0) {
-				// TODO Auto-generated method stub
+			public void onNothingSelected(AdapterView<?> parent) {
 			}
 		});
 
-		ArrayAdapter<String> adapter_role = new ArrayAdapter<String>(this,
-				android.R.layout.simple_spinner_item, userRoleString);
-		adapter_role
-		.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-		spinnerloginas.setAdapter(adapter_role);
-
-		login.setOnClickListener(new OnClickListener() {
-
+		login.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
+				String user_name = username.getText().toString();
+				String pass_word = password.getText().toString();
 
-				if(userrole.equals("ISI"))
-				{
-
-					String user_name = username.getText().toString();
-					String pass_word = password.getText().toString();
-
-					if (TextUtils.isEmpty(user_name)) 
-					{
-						username.setError("Verifiez Nom Utilisateur");
-					}
-					else if(TextUtils.isEmpty(pass_word))
-					{
-						password.setError("Enter mot de passe");
-					}
-					else
-					{
-						if(user_name.equals("ISI") & pass_word.equals("ISI2@24")){
-						Intent intent =new Intent(LoginActivity.this,MenuActivity.class);
-						startActivity(intent);
-						Toast.makeText(getApplicationContext(), "Login :-)", Toast.LENGTH_SHORT).show();
-						}else{
-							Toast.makeText(getApplicationContext(), "Login :-(", Toast.LENGTH_SHORT).show();
-						}
-					}
+				if (TextUtils.isEmpty(user_name)) {
+					username.setError("Vérifiez Nom Utilisateur");
+					return;
 				}
-				
-				else
-				{
-					String user_name = username.getText().toString();
-					String pass_word = password.getText().toString();
+				if (TextUtils.isEmpty(pass_word)) {
+					password.setError("Entrer mot de passe");
+					return;
+				}
 
-					if (TextUtils.isEmpty(user_name)) 
-					{
-						username.setError("Vérifiez Nom Utilisateur");
+				if (userrole.equals("Administrateur")) {
+					if (user_name.equals("ISI") && pass_word.equals("ISI2@24")) {
+						Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+						startActivity(intent);
+						Toast.makeText(getApplicationContext(), "Login ISI :-)", Toast.LENGTH_SHORT).show();
+					} else {
+						Toast.makeText(getApplicationContext(), "Login ISI :-(", Toast.LENGTH_SHORT).show();
 					}
-					else if(TextUtils.isEmpty(pass_word))
-					{
-						password.setError("Entrer mot de passe");
-					}
+
+				} else if (userrole.equals("Espace Enseignant")) {
 					DBAdapter dbAdapter = new DBAdapter(LoginActivity.this);
 					FacultyBean facultyBean = dbAdapter.validateFaculty(user_name, pass_word);
-					
-					if(facultyBean!=null)
-					{
-						Intent intent = new Intent(LoginActivity.this,AddAttandanceSessionActivity.class);
+					if (facultyBean != null) {
+						Intent intent = new Intent(LoginActivity.this, AddAttandanceSessionActivity.class);
 						startActivity(intent);
-						((ApplicationContext)LoginActivity.this.getApplicationContext()).setFacultyBean(facultyBean);
-						Toast.makeText(getApplicationContext(), "Login :-)", Toast.LENGTH_SHORT).show();
-					}
-					else
-					{
-						Toast.makeText(getApplicationContext(), "Login :-(", Toast.LENGTH_SHORT).show();
+						((ApplicationContext) LoginActivity.this.getApplicationContext()).setFacultyBean(facultyBean);
+						Toast.makeText(getApplicationContext(), "Login Enseignant :-)", Toast.LENGTH_SHORT).show();
+					} else {
+						Toast.makeText(getApplicationContext(), "Login Enseignant :-(", Toast.LENGTH_SHORT).show();
 					}
 				}
-
-
 			}
 		});
-
-
-
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
 }
