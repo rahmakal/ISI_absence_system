@@ -1,0 +1,17 @@
+Index: app/src/main/res/drawable/border_edittext.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\r\n    <item>\r\n        <shape android:shape=\"rectangle\">\r\n            <!-- background -->\r\n            <solid android:color=\"#FFFFFF\" />\r\n            <!-- border -->\r\n            <stroke android:width=\"5dp\" android:color=\"@color/PrimaryDark\" />\r\n\r\n            <!-- corner roundness -->\r\n            <corners android:radius=\"10dp\" />\r\n        </shape>\r\n    </item>\r\n</selector>
+===================================================================
+diff --git a/app/src/main/res/drawable/border_edittext.xml b/app/src/main/res/drawable/border_edittext.xml
+--- a/app/src/main/res/drawable/border_edittext.xml	
++++ b/app/src/main/res/drawable/border_edittext.xml	
+@@ -5,7 +5,7 @@
+             <!-- background -->
+             <solid android:color="#FFFFFF" />
+             <!-- border -->
+-            <stroke android:width="5dp" android:color="@color/PrimaryDark" />
++            <stroke android:width="3dp" android:color="@color/PrimaryDark" />
+ 
+             <!-- corner roundness -->
+             <corners android:radius="10dp" />
