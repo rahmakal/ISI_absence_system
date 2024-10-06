@@ -3,6 +3,7 @@ package com.android.attendance.db;
 import java.util.ArrayList;
 
 import com.android.attendance.bean.AttendanceBean;
+import com.android.attendance.bean.AttendanceBySubjectBean;
 import com.android.attendance.bean.AttendanceSessionBean;
 import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.bean.StudentBean;
@@ -270,7 +271,7 @@ public class DBAdapter extends SQLiteOpenHelper {
 		ArrayList<StudentBean> list = new ArrayList<StudentBean>();
 
 		SQLiteDatabase db = this.getWritableDatabase();
-		String query = "SELECT * FROM student_table";
+		String query = "SELECT * FROM student_table order by student_id";
 		Cursor cursor = db.rawQuery(query, null);
 
 		if(cursor.moveToFirst()) 
@@ -500,15 +501,12 @@ public class DBAdapter extends SQLiteOpenHelper {
 		return list;
 	}
 	
-	public ArrayList<AttendanceBean> getAllAttendanceByStudent()
+	public ArrayList<AttendanceBySubjectBean> getAllAttendanceByStudent()
 	{
-		ArrayList<AttendanceBean> list = new ArrayList<AttendanceBean>();
+		ArrayList<AttendanceBySubjectBean> list = new ArrayList<>();
 
 		SQLiteDatabase db = this.getWritableDatabase();
-		String query = "SELECT attendance_student_id,count(*) FROM attendance_table where attendance_status='P' group by attendance_student_id";
-		
-		Log.d("query", query);
-		
+		String query = "SELECT attendance_student_id, attendance_session_subject ,count(*) FROM attendance_table at, attendance_session_table ast where attendance_status='P' and at.attendance_session_id = ast.attendance_session_id  group by attendance_student_id, attendance_session_subject";
 		Cursor cursor = db.rawQuery(query, null);
 		
 		
@@ -516,14 +514,16 @@ public class DBAdapter extends SQLiteOpenHelper {
 		if(cursor.moveToFirst()) 
 		{
 			do{
-				Log.d("studentId","studentId:"+cursor.getString(0)+", Count:"+cursor.getString(1));
-				AttendanceBean attendanceBean = new AttendanceBean();
-				attendanceBean.setAttendance_student_id(Integer.parseInt(cursor.getString(0)));
-				attendanceBean.setAttendance_session_id(Integer.parseInt(cursor.getString(1)));
-				list.add(attendanceBean);
+				Log.d("studentId","studentId:"+cursor.getString(0)+", subject:"+cursor.getString(1)+", count: "+cursor.getString(2));
+				AttendanceBySubjectBean attendanceBySubjectBean = new AttendanceBySubjectBean();
+				attendanceBySubjectBean.setAttendance_student_id(Integer.parseInt(cursor.getString(0)));
+				attendanceBySubjectBean.setCount(Integer.parseInt(cursor.getString(2)));
+				attendanceBySubjectBean.setAttendance_session_subject(cursor.getString(1));
+				list.add(attendanceBySubjectBean);
 
 			}while(cursor.moveToNext());
 		}
+		cursor.close();
 		return list;
 	}
 	/*public ArrayList<AttendanceBean> getAllAttendanceBySessionID(int sessionId)
