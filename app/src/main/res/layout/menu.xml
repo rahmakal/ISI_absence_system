@@ -104,5 +104,38 @@
 
     </GridLayout>
 
+    <Button
+        android:id="@+id/buttonaddstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Student" />
 
+    <Button
+        android:id="@+id/buttonaddfaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Faculty" />
+
+    <Button
+        android:id="@+id/buttonViewstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Students" />
+
+    <Button
+        android:id="@+id/buttonviewfaculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Faculty" />
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+    <Button
+        android:id="@+id/attendancePerStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
 </RelativeLayout>
