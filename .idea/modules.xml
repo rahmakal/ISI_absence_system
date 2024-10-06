@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ISI_Absence_System.iml" filepath="$PROJECT_DIR$/.idea/modules/ISI_Absence_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_Absence_System.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ISI_absence_system.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ISI_absence_system.app.iml" />
     </modules>
   </component>
 </project>

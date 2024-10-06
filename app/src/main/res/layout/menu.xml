@@ -106,25 +106,29 @@
         android:id="@+id/buttonaddstudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Student" />
+        android:text="Add Student"
+        android:layout_marginTop="250dp"/>
 
     <Button
         android:id="@+id/buttonaddfaculty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Faculty" />
+        android:text="Add Faculty"
+        android:layout_marginTop="200dp"/>
 
     <Button
         android:id="@+id/buttonViewstudent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Students" />
+        android:text="View Students"
+        android:layout_marginTop="150dp"/>
 
     <Button
         android:id="@+id/buttonviewfaculty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Faculty" />
+        android:text="View Faculty"
+        android:layout_marginTop="100dp"/>
 
     <Button
         android:id="@+id/buttonlogout"
@@ -135,5 +139,6 @@
         android:id="@+id/attendancePerStudentButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout" />
+        android:text="presence"
+        android:layout_marginTop="50dp"/>
 </RelativeLayout>
