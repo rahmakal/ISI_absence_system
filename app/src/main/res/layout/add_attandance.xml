@@ -8,16 +8,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.android.attendance.activity.MainActivity" >
     <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/universite_de_tunis_1_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="119dp"
         android:layout_height="89dp"
-        android:background="@drawable/universite_de_tunis_1_removebg_preview"
-        android:layout_alignParentRight="true"
-        />
-    <ImageView
-        android:layout_width="121dp"
-        android:layout_height="100dp"
-        android:background="@drawable/isi"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/isi" />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
@@ -71,6 +75,7 @@
         android:layout_below="@id/textView3"
         android:layout_alignLeft="@id/textView3"
         android:layout_marginTop="35dp"
+        android:padding="5dp"
         android:background="@drawable/border_edittext"
         android:editable="false"
         android:ems="10" >
