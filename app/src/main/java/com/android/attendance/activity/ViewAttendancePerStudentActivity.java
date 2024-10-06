@@ -4,18 +4,23 @@ import java.util.ArrayList;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.attendance.bean.AttendanceBean;
+import com.android.attendance.bean.AttendanceBySubjectBean;
 import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.bean.StudentBean;
 import com.android.attendance.context.ApplicationContext;
@@ -24,9 +29,10 @@ import com.example.androidattendancesystem.R;
 
 public class ViewAttendancePerStudentActivity extends Activity {
 
-	ArrayList<AttendanceBean> attendanceBeanList;
+	ArrayList<AttendanceBySubjectBean> attendanceBySubjectBeanList;
 	private ListView listView ;  
 	private ArrayAdapter<String> listAdapter;
+	private ArrayAdapter<String> listAdapter1;
 
 	DBAdapter dbAdapter = new DBAdapter(this);
 	@Override
@@ -37,21 +43,42 @@ public class ViewAttendancePerStudentActivity extends Activity {
 		listView=(ListView)findViewById(R.id.listview);
 		final ArrayList<String> attendanceList = new ArrayList<String>();
 		attendanceList.add("Present Count Per Student");
-		attendanceBeanList=((ApplicationContext)ViewAttendancePerStudentActivity.this.getApplicationContext()).getAttendanceBeanList();
-
-		for(AttendanceBean attendanceBean : attendanceBeanList)
+		attendanceBySubjectBeanList=((ApplicationContext)ViewAttendancePerStudentActivity.this.getApplicationContext()).getAttendanceBySubjectBeans();
+		ArrayList<StudentBean> Students = dbAdapter.getAllStudent();
+		for(StudentBean student : Students)
 		{
 			String users = "";
-			
-				DBAdapter dbAdapter = new DBAdapter(ViewAttendancePerStudentActivity.this);
-				StudentBean studentBean =dbAdapter.getStudentById(attendanceBean.getAttendance_student_id());
-				users = attendanceBean.getAttendance_student_id()+".     "+studentBean.getStudent_firstname()+","+studentBean.getStudent_lastname()+"                  "+attendanceBean.getAttendance_session_id();
+				users = student.getStudent_id()+".     "+student.getStudent_firstname()+" "+student.getStudent_lastname();
 				attendanceList.add(users);
 		}
 
 		listAdapter = new ArrayAdapter<String>(this, R.layout.view_attendance_list_per_student, R.id.labelAttendancePerStudent, attendanceList);
 		listView.setAdapter( listAdapter ); 
+		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 
+				final Dialog dialog = new Dialog(ViewAttendancePerStudentActivity.this);
+				arg0.getChildAt(arg2).setBackgroundColor(Color.TRANSPARENT);
+				arg1.setBackgroundColor(334455);
+				dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+				dialog.setContentView(R.layout.view_attendance_list_per_student);
+				ArrayList<String> attendance = new ArrayList<>();
+				String att = "";
+				for(AttendanceBySubjectBean item: attendanceBySubjectBeanList){
+					if(item.getAttendance_student_id() == arg2){
+						att += item.getAttendance_session_subject()+" "+item.getCount()+"\n";
+					}
+				}
+
+				TextView res = (TextView) dialog.findViewById(R.id.labelAttendancePerStudent);
+				res.setText(att);
+				//listAdapter1 = new ArrayAdapter<String>(dialog.getContext(), R.layout.view_attendance_list_per_student, R.id.labelAttendancePerStudent, attendance);
+				dialog.setCancelable(true);
+				dialog.show();
+			}
+
+		});
 		/*listView.setOnItemLongClickListener(new OnItemLongClickListener() {
 
 			@Override

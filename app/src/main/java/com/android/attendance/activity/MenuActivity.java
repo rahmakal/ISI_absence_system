@@ -3,6 +3,7 @@ package com.android.attendance.activity;
 import java.util.ArrayList;
 
 import com.android.attendance.bean.AttendanceBean;
+import com.android.attendance.bean.AttendanceBySubjectBean;
 import com.android.attendance.context.ApplicationContext;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
@@ -97,8 +98,8 @@ public class MenuActivity extends Activity {
 			public void onClick(View arg0) {
 				
 				DBAdapter dbAdapter = new DBAdapter(MenuActivity.this);
-				ArrayList<AttendanceBean> attendanceBeanList=dbAdapter.getAllAttendanceByStudent();
-				((ApplicationContext)MenuActivity.this.getApplicationContext()).setAttendanceBeanList(attendanceBeanList);
+				ArrayList<AttendanceBySubjectBean> attendanceBySubjectBeanList=dbAdapter.getAllAttendanceByStudent();
+				((ApplicationContext)MenuActivity.this.getApplicationContext()).setAttendanceBySubjectBeans(attendanceBySubjectBeanList);
 				
 				Intent intent = new Intent(MenuActivity.this,ViewAttendancePerStudentActivity.class);
 				startActivity(intent);
