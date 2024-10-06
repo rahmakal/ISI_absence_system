@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import android.app.Application;
 
 import com.android.attendance.bean.AttendanceBean;
+import com.android.attendance.bean.AttendanceBySubjectBean;
 import com.android.attendance.bean.AttendanceSessionBean;
 import com.android.attendance.bean.FacultyBean;
 import com.android.attendance.bean.StudentBean;
@@ -14,6 +15,7 @@ public class ApplicationContext extends Application {
 	private AttendanceSessionBean attendanceSessionBean;
 	private ArrayList<StudentBean> studentBeanList;
 	private ArrayList<AttendanceBean> attendanceBeanList;
+	private ArrayList<AttendanceBySubjectBean> attendanceBySubjectBeans;
 	
 	public FacultyBean getFacultyBean() {
 		return facultyBean;
@@ -39,7 +41,12 @@ public class ApplicationContext extends Application {
 	public void setAttendanceBeanList(ArrayList<AttendanceBean> attendanceBeanList) {
 		this.attendanceBeanList = attendanceBeanList;
 	}
-	
-	
 
+	public ArrayList<AttendanceBySubjectBean> getAttendanceBySubjectBeans() {
+		return attendanceBySubjectBeans;
+	}
+
+	public void setAttendanceBySubjectBeans(ArrayList<AttendanceBySubjectBean> attendanceBySubjectBeans) {
+		this.attendanceBySubjectBeans = attendanceBySubjectBeans;
+	}
 }
