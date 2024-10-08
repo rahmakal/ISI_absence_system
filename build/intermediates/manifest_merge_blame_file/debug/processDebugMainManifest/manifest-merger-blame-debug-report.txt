@@ -1,0 +1,131 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidattendancesystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+9        android:targetSdkVersion="28" />
+10
+11    <application
+11-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:6:5-70:19
+12        android:name="com.android.attendance.context.ApplicationContext"
+12-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:7:10-74
+13        android:allowBackup="true"
+13-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:8:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+15        android:debuggable="true"
+16        android:extractNativeLibs="true"
+17        android:icon="@drawable/students"
+17-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:9:9-42
+18        android:label="@string/app_name"
+18-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:10:9-41
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.android.attendance.activity.MainActivity"
+22-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:13:13-72
+23            android:label="@string/app_name" >
+23-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:14:13-45
+24            <intent-filter>
+24-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:21:10-24:20
+31            android:name="com.android.attendance.activity.LoginActivity"
+31-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:22:13-73
+32            android:label="@string/app_name" >
+32-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:23:13-45
+33        </activity>
+34        <activity
+34-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:25:10-28:20
+35            android:name="com.android.attendance.activity.MenuActivity"
+35-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:26:13-72
+36            android:label="@string/app_name" >
+36-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:27:13-45
+37        </activity>
+38        <activity
+38-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:29:10-32:20
+39            android:name="com.android.attendance.activity.AddFacultyActivity"
+39-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:30:13-78
+40            android:label="@string/app_name" >
+40-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:31:13-45
+41        </activity>
+42        <activity
+42-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:33:9-36:20
+43            android:name="com.android.attendance.activity.AddStudentActivity"
+43-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:34:13-78
+44            android:label="@string/app_name" >
+44-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:35:13-45
+45        </activity>
+46        <activity
+46-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:37:9-40:20
+47            android:name="com.android.attendance.activity.ViewFacultyActivity"
+47-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:38:13-79
+48            android:label="@string/app_name" >
+48-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:39:13-45
+49        </activity>
+50        <activity
+50-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:41:9-44:20
+51            android:name="com.android.attendance.activity.ViewStudentActivity"
+51-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:42:13-79
+52            android:label="@string/app_name" >
+52-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:43:13-45
+53        </activity>
+54        <activity
+54-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:45:9-48:20
+55            android:name="com.android.attendance.activity.TestActivity"
+55-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:46:13-72
+56            android:label="@string/app_name" >
+56-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:47:13-45
+57        </activity>
+58        <activity
+58-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:49:10-52:20
+59            android:name="com.android.attendance.activity.ViewStudentByBranchYear"
+59-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:50:13-83
+60            android:label="@string/app_name" >
+60-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:51:13-45
+61        </activity>
+62        <activity
+62-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:53:11-56:20
+63            android:name="com.android.attendance.activity.AddAttandanceSessionActivity"
+63-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:54:13-88
+64            android:label="@string/app_name" >
+64-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:55:13-45
+65        </activity>
+66        <activity
+66-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:57:10-60:20
+67            android:name="com.android.attendance.activity.AddAttendanceActivity"
+67-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:58:13-81
+68            android:label="@string/app_name" >
+68-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:59:13-45
+69        </activity>
+70        <activity
+70-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:61:10-64:20
+71            android:name="com.android.attendance.activity.ViewAttendanceByFacultyActivity"
+71-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:62:13-91
+72            android:label="@string/app_name" >
+72-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:63:13-45
+73        </activity>
+74        <activity
+74-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:65:10-68:20
+75            android:name="com.android.attendance.activity.ViewAttendancePerStudentActivity"
+75-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:66:13-92
+76            android:label="@string/app_name" >
+76-->C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:67:13-45
+77        </activity>
+78    </application>
+79
+80</manifest>

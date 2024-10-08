@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.androidattendancesystem.app-mergeDebugResources-7:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nour-\\.gradle\\caches\\transforms-4\\0335d16968e1ac8b5d077c86f3ee3881\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    }
+                }
+            ]
+        }
+    ]
+}

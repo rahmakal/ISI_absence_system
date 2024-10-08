@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.androidattendancesystem.app-mergeDebugResources-7:/values-et/values-et.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nour-\\.gradle\\caches\\transforms-4\\7ba3d41943b23b44ace8f7f043c035ce\\transformed\\core-1.0.0\\res\\values-et\\values-et.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

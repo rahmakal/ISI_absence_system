@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISI Absence System</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="hello_world">Welcome</string>
+    <string-array name="login_as_options">
+        <item>Espace enseignant</item>
+        <item>Espace Etudiant</item>
+        <item>Administrateur</item>
+    </string-array>
+</resources>

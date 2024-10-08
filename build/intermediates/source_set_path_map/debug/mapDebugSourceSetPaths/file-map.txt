@@ -1,0 +1,12 @@
+com.example.androidattendancesystem.app-cardview-1.0.0-0 C:\Users\nour-\.gradle\caches\transforms-4\0335d16968e1ac8b5d077c86f3ee3881\transformed\cardview-1.0.0\res
+com.example.androidattendancesystem.app-constraintlayout-1.1.3-1 C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\res
+com.example.androidattendancesystem.app-media-1.0.0-2 C:\Users\nour-\.gradle\caches\transforms-4\141910df1a67ece8a6e80cb28fa92fc2\transformed\media-1.0.0\res
+com.example.androidattendancesystem.app-core-1.0.0-3 C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\res
+com.example.androidattendancesystem.app-coordinatorlayout-1.0.0-4 C:\Users\nour-\.gradle\caches\transforms-4\b4c432f76b66334f3132569f4827fe1d\transformed\coordinatorlayout-1.0.0\res
+com.example.androidattendancesystem.app-pngs-5 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\build\generated\res\pngs\debug
+com.example.androidattendancesystem.app-resValues-6 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\build\generated\res\resValues\debug
+com.example.androidattendancesystem.app-mergeDebugResources-7 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.androidattendancesystem.app-mergeDebugResources-8 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.androidattendancesystem.app-debug-9 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.androidattendancesystem.app-debug-10 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\debug\res
+com.example.androidattendancesystem.app-main-11 C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\res

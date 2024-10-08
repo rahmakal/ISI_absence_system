@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\a9055406a4005b1133bd72afc04f8dbb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\0335d16968e1ac8b5d077c86f3ee3881\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\141910df1a67ece8a6e80cb28fa92fc2\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\214dad20d7ef4656f2f509965e176e8f\transformed\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\12adb744e1c195b12ef47e9757071e6b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\962cf723aeac323009f0793661485074\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\859d46ffc86d5f4c552199d7eb4b7e36\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e77f89ccbe4938dff8c80a622bcfe961\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\b4c432f76b66334f3132569f4827fe1d\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\d55c66e7296b48f73fbdad2eb7526313\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\cc0a8ad8b765e3d0f46343d126f23a86\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e828f320463e4c250009bdd26911583f\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\86c4021b5cf4bd2763d0fbe1554ae73d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\3c97bbcdd5cd2fe6af9732e66557e00e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\23b06713900672bbee77a73051b639b1\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7415a86f8ff06cef55173d12107102c1\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\42b1827bcb448e58dda31665f3d144c9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\74b9a8de7defd2688d2b13026677df33\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c9c8fba7244ac5269d0009fc4017dab8\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c235a14b3f89087297cea9a0269f2991\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\ec7bd215fb6800e14c0d9218083e5a22\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6d6316f5f9e49ef4e794f896c3f94fbe\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\390eff85e54fac3f233f4f87fd87cb31\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\304ece4348426975ad542f73008f14fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6735910252867ffe3dac9b571f620d05\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:6:5-70:19
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:6:5-70:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\23b06713900672bbee77a73051b639b1\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\23b06713900672bbee77a73051b639b1\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:9:9-42
+	android:allowBackup
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:7:10-74
+activity#com.android.attendance.activity.MainActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:13:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.android.attendance.activity.LoginActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:21:10-24:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:22:13-73
+activity#com.android.attendance.activity.MenuActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:25:10-28:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:26:13-72
+activity#com.android.attendance.activity.AddFacultyActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:29:10-32:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:30:13-78
+activity#com.android.attendance.activity.AddStudentActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:34:13-78
+activity#com.android.attendance.activity.ViewFacultyActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:39:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:38:13-79
+activity#com.android.attendance.activity.ViewStudentActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:42:13-79
+activity#com.android.attendance.activity.TestActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:46:13-72
+activity#com.android.attendance.activity.ViewStudentByBranchYear
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:49:10-52:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:50:13-83
+activity#com.android.attendance.activity.AddAttandanceSessionActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:53:11-56:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:55:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:54:13-88
+activity#com.android.attendance.activity.AddAttendanceActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:57:10-60:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:58:13-81
+activity#com.android.attendance.activity.ViewAttendanceByFacultyActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:61:10-64:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:62:13-91
+activity#com.android.attendance.activity.ViewAttendancePerStudentActivity
+ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:65:10-68:20
+	android:label
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:67:13-45
+	android:name
+		ADDED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml:66:13-92
+uses-sdk
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\nour-\.gradle\caches\transforms-4\0937f64866e7b1238ac551546b6cb563\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\a9055406a4005b1133bd72afc04f8dbb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\a9055406a4005b1133bd72afc04f8dbb\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\0335d16968e1ac8b5d077c86f3ee3881\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\0335d16968e1ac8b5d077c86f3ee3881\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\141910df1a67ece8a6e80cb28fa92fc2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\141910df1a67ece8a6e80cb28fa92fc2\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\214dad20d7ef4656f2f509965e176e8f\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\214dad20d7ef4656f2f509965e176e8f\transformed\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\12adb744e1c195b12ef47e9757071e6b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\12adb744e1c195b12ef47e9757071e6b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\962cf723aeac323009f0793661485074\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\962cf723aeac323009f0793661485074\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\859d46ffc86d5f4c552199d7eb4b7e36\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\859d46ffc86d5f4c552199d7eb4b7e36\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e77f89ccbe4938dff8c80a622bcfe961\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e77f89ccbe4938dff8c80a622bcfe961\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\b4c432f76b66334f3132569f4827fe1d\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\b4c432f76b66334f3132569f4827fe1d\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\d55c66e7296b48f73fbdad2eb7526313\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\d55c66e7296b48f73fbdad2eb7526313\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\cc0a8ad8b765e3d0f46343d126f23a86\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\cc0a8ad8b765e3d0f46343d126f23a86\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e828f320463e4c250009bdd26911583f\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\e828f320463e4c250009bdd26911583f\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\86c4021b5cf4bd2763d0fbe1554ae73d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\86c4021b5cf4bd2763d0fbe1554ae73d\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\3c97bbcdd5cd2fe6af9732e66557e00e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\3c97bbcdd5cd2fe6af9732e66557e00e\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7ba3d41943b23b44ace8f7f043c035ce\transformed\core-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\23b06713900672bbee77a73051b639b1\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\23b06713900672bbee77a73051b639b1\transformed\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7415a86f8ff06cef55173d12107102c1\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\7415a86f8ff06cef55173d12107102c1\transformed\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\42b1827bcb448e58dda31665f3d144c9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\42b1827bcb448e58dda31665f3d144c9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\74b9a8de7defd2688d2b13026677df33\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\74b9a8de7defd2688d2b13026677df33\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c9c8fba7244ac5269d0009fc4017dab8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c9c8fba7244ac5269d0009fc4017dab8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c235a14b3f89087297cea9a0269f2991\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\c235a14b3f89087297cea9a0269f2991\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\ec7bd215fb6800e14c0d9218083e5a22\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\nour-\.gradle\caches\transforms-4\ec7bd215fb6800e14c0d9218083e5a22\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6d6316f5f9e49ef4e794f896c3f94fbe\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6d6316f5f9e49ef4e794f896c3f94fbe\transformed\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\390eff85e54fac3f233f4f87fd87cb31\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\390eff85e54fac3f233f4f87fd87cb31\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\304ece4348426975ad542f73008f14fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\304ece4348426975ad542f73008f14fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6735910252867ffe3dac9b571f620d05\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\nour-\.gradle\caches\transforms-4\6735910252867ffe3dac9b571f620d05\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\nour-\Downloads\ISI_absence_system-main 2\ISI_absence_system-main\app\src\main\AndroidManifest.xml

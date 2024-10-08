@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg8.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg8.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_boarder_buttons.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\boarder_buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_border_spinner.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\border_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_addenseign.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\addenseign.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_wave.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\wave.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\menu_main.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_listview_main.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\listview_main.xml"
+    },
+    {
+        "merged": "com.example.androidattendancesystem.app-debug-9:/layout_menu.xml.flat",
+        "source": "com.example.androidattendancesystem.app-main-11:/layout/menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_enseignpresc.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\enseignpresc.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg4.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_view_attendance_list_per_student.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\view_attendance_list_per_student.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout___listview_main.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\__listview_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_roundedbutton.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\roundedbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-anydpi-v24_ic_spinning_circles.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-anydpi-v24\\ic_spinning_circles.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xhdpi_students.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-xhdpi\\students.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_ajoutetud.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\ajoutetud.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_test_main.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\test_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-ldpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-ldpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-mdpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-mdpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_test_layout.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\test_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_universite_de_tunis_1_removebg_preview.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\universite_de_tunis_1_removebg_preview.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_addfaculty.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\addfaculty.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xhdpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-xhdpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg2.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_border_edittext.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\border_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_roundedtextview.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\roundedtextview.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_calendar.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_etudiantpres.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\etudiantpres.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg5.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xhdpi_students1.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-xhdpi\\students1.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xxhdpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-xxhdpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_addstudent.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\addstudent.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_login.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_view_faculty_list.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\view_faculty_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_menu.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_students.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\students.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_view_student_list.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\view_student_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_wave2.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\wave2.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg6.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg6.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-hdpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_view_attendance_list.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\view_attendance_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg7.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg7.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xxxhdpi_ic_spinning_circles.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-pngs-5:\\drawable-xxxhdpi\\ic_spinning_circles.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_isi.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\isi.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-hdpi_clg3.jpg.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-hdpi\\clg3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_viewstudent.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\viewstudent.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_cut_card_background.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\cut_card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_add_student_attendance.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\add_student_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\layout_add_attandance.xml.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\layout\\add_attandance.xml"
+    },
+    {
+        "merged": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-debug-9:\\drawable_absenceetudiant.png.flat",
+        "source": "C:\\Users\\nour-\\.gradle\\daemon\\8.7\\com.example.androidattendancesystem.app-main-11:\\drawable\\absenceetudiant.png"
+    }
+]
