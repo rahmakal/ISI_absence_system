@@ -64,10 +64,10 @@ public class ViewAttendancePerStudentActivity extends Activity {
 				dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
 				dialog.setContentView(R.layout.view_attendance_list_per_student);
 				ArrayList<String> attendance = new ArrayList<>();
-				String att = "";
+				String att = "Matière | Total \n";
 				for(AttendanceBySubjectBean item: attendanceBySubjectBeanList){
 					if(item.getAttendance_student_id() == arg2){
-						att += item.getAttendance_session_subject()+" "+item.getCount()+"\n";
+						att += item.getAttendance_session_subject()+"    |    "+item.getCount()+"\n";
 					}
 				}
 

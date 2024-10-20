@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 					progress++;
 					bar.setProgress(progress);
 					txt.setText(String.valueOf(progress)+"%");
-					handler.postDelayed(this, 50);
+					handler.postDelayed(this, 10);
 				} else if (progress >= 100) {
 					Intent intent = new Intent(MainActivity.this, LoginActivity.class);
 					startActivity(intent);
