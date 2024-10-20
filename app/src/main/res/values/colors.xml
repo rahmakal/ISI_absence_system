@@ -5,7 +5,8 @@
     <color name="Accent">#dbe2ef</color>
     <color name="primaryLight">#0B17ED</color>
     <color name="PrimaryDark">#114E40</color>
-
+    <color name="white">#FFFFFF</color>
+    <color name="offBlue">#47688F</color>
     
     
 </resources>

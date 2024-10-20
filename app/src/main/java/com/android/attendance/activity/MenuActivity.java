@@ -3,6 +3,7 @@ package com.android.attendance.activity;
 import java.util.ArrayList;
 
 import com.android.attendance.bean.AttendanceBean;
+import com.android.attendance.bean.AttendanceBySubjectBean;
 import com.android.attendance.context.ApplicationContext;
 import com.android.attendance.db.DBAdapter;
 import com.example.androidattendancesystem.R;
@@ -15,25 +16,27 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import androidx.cardview.widget.CardView;
+
 public class MenuActivity extends Activity {
 
-	Button addStudent;
-	Button addFaculty;
-	Button viewStudent;
-	Button viewFaculty;
-	Button logout;
-	Button attendancePerStudent;
+	CardView addStudent;
+	CardView addFaculty;
+	CardView viewStudent;
+	CardView viewFaculty;
+	CardView logout;
+	CardView attendancePerStudent;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.menu);
 
-		addStudent =(Button)findViewById(R.id.buttonaddstudent);
-		addFaculty =(Button)findViewById(R.id.buttonaddfaculty);
-		viewStudent =(Button)findViewById(R.id.buttonViewstudent);
-		viewFaculty =(Button)findViewById(R.id.buttonviewfaculty);
-		logout =(Button)findViewById(R.id.buttonlogout);
+		addStudent =(CardView)findViewById(R.id.cardStudent);
+		addFaculty =(CardView)findViewById(R.id.cardTeacher);
+		viewStudent =(CardView)findViewById(R.id.cardStudentInfo);
+		viewFaculty =(CardView)findViewById(R.id.cardTeacherInfo);
+		logout =(CardView)findViewById(R.id.cardLogout);
 		
 		addStudent.setOnClickListener(new OnClickListener() {
 
@@ -90,15 +93,15 @@ public class MenuActivity extends Activity {
 				startActivity(intent);
 			}
 		});
-		attendancePerStudent=(Button)findViewById(R.id.attendancePerStudentButton);
+		attendancePerStudent=(CardView)findViewById(R.id.cardAttendance);
 		attendancePerStudent.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View arg0) {
 				
 				DBAdapter dbAdapter = new DBAdapter(MenuActivity.this);
-				ArrayList<AttendanceBean> attendanceBeanList=dbAdapter.getAllAttendanceByStudent();
-				((ApplicationContext)MenuActivity.this.getApplicationContext()).setAttendanceBeanList(attendanceBeanList);
+				ArrayList<AttendanceBySubjectBean> attendanceBySubjectBeanList=dbAdapter.getAllAttendanceByStudent();
+				((ApplicationContext)MenuActivity.this.getApplicationContext()).setAttendanceBySubjectBeans(attendanceBySubjectBeanList);
 				
 				Intent intent = new Intent(MenuActivity.this,ViewAttendancePerStudentActivity.class);
 				startActivity(intent);

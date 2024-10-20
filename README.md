@@ -2,7 +2,7 @@
 <h2>Features Available</h2>
 <h3>Admin Module</h3>
 <ul>
- 	<li>Add Student.</li>
+ 	<li>Add Students.</li>
  	<li>Add Faculty.</li>
  	<li>Add Teacher.</li>
  	<li>View Student.</li>
@@ -18,17 +18,6 @@
  	<li>Save notes subject wise</li>
  	<li>Simple  designed interface</li>
 </ul>
-<h3 id="requirement" class="notes">Software Requirement</h3>
-<ul>
- 	<li>Android Studio</li>
- 	<li>Latest Version</li>
- 	<li>Internet Connection</li>
- 	<li>Java</li>
-</ul>
-<h3>Admin Login</h3>
-<ul>
- 	<li>Username :-admin</li>
- 	<li>Password :-admin123</li>
-</ul>
+
 &nbsp;
 
