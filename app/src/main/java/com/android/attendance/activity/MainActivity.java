@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.example.androidattendancesystem.R;
 
 public class MainActivity extends Activity {
@@ -19,14 +21,17 @@ public class MainActivity extends Activity {
 	private ProgressBar bar;
 	private TextView txt;
 	private Button startButton;
+	private Button quizButton;
 	private Runnable progressRunnable;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		startService(new Intent(this,Reminder.class));
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		bar = findViewById(R.id.progress);
 		startButton = findViewById(R.id.buttonstart);
+		quizButton = findViewById(R.id.buttonquiz);
 		txt = findViewById(R.id.text);
 
 		if (savedInstanceState != null) {
@@ -54,11 +59,29 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				isClicked = true;
 				startButton.setVisibility(View.INVISIBLE);
+				quizButton.setVisibility(View.INVISIBLE);
 				bar.setVisibility(View.VISIBLE);
 				isPaused = false;
 				handler.post(progressRunnable);
 			}
 		});
+		quizButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// Replace "com.example.quizapp" with the actual package name of the Quiz app
+				String packageName = "com.example.quizapp";
+				Intent launchIntent = getPackageManager().getLaunchIntentForPackage(packageName);
+
+				if (launchIntent != null) {
+					startActivity(launchIntent); // Launch the Quiz app
+				} else {
+					// Notify user if the Quiz app is not installed
+					Toast.makeText(getApplicationContext(), "Quiz app not installed", Toast.LENGTH_SHORT).show();
+				}
+			}
+		});
+
+
 	}
 
 	@Override

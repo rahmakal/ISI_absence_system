@@ -75,7 +75,19 @@
         android:textColor="@color/offBlue"
         android:textStyle="bold"
         android:background="@drawable/boarder_buttons1"
-        android:text="Commencer" />
+        android:text="ISI absence" />
+    <Button
+        android:id="@+id/buttonquiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="820dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="@color/app_background"
+        android:textColor="@color/offBlue"
+        android:textStyle="bold"
+        android:background="@drawable/boarder_buttons1"
+        android:text="Jouer" />
 
 
     <ProgressBar
