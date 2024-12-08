@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// Replace "com.example.quizapp" with the actual package name of the Quiz app
-				String packageName = "com.example.quizapp";
+				String packageName = "com.sagarkhurana.quizforfun";
 				Intent launchIntent = getPackageManager().getLaunchIntentForPackage(packageName);
 
 				if (launchIntent != null) {
